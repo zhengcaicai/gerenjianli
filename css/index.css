@@ -1,0 +1,139 @@
+html,body{
+    height: 100%;
+}
+.swiper-container {
+    width:100%;
+    height: 100%;
+} 
+#page1{
+    position: relative;
+    background: url("../images/beijing.jpg") center center no-repeat;
+    height: 100%;
+} 
+#page1>img{
+    position: absolute;
+}
+.hua{
+    width: 14rem;
+    height: 12rem;
+    top: -5rem;
+    left:-5rem;
+}
+.er{
+    width: 7rem;
+    height: 9rem;
+    top: 2rem;
+    left: 0.3rem;
+}
+.ditu{
+    width: 100%;
+    top: rem;
+    bottom: 0;
+    left: 0;
+}
+#next{
+    width: 0.5rem;
+    height: 0.4rem;
+    background: url("../images/arrow.png") no-repeat;
+    background-size: cover;
+    bottom: 0.2rem;
+    top: auto;
+    left: 50%;
+    margin-left: -0.25rem;
+    animation: fadeInUp 1s linear infinite;
+}
+@-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+}
+    .page2{
+        position: relative;
+    }
+    .page2>img{
+        position: absolute;
+    }
+    .page2{
+        height:100%;
+        background:url("../images/beijing2.jpg") center center no-repeat;
+        background-size:cover;
+  
+    }
+  
+    .eyu{
+        width:7rem;
+        height:10rem;
+        left:0.2rem;
+        top:1.3rem;
+  
+    }
+    .book2{
+        width:5rem;
+        height:3rem;
+        top:1rem;
+        left:5rem;
+        margin-left:-0.875rem;
+    }
+    .textContent{
+        position:absolute;
+        font-size:0.32rem;
+        left:0.8rem;
+        top:3.5rem;
+        line-height:0.64rem;
+        color:firebrick;
+    }
+    .page3{
+        position:relative;
+        background:url("../images/beijing2.jpg");
+        background-size:100% 100%;
+    }
+    .page3>img{
+        position: absolute;
+    }
+   .xiatianbiaoti{
+     widows: 15rem;
+     height:11rem;
+     top:-4.5rem;
+     left:4erm;
+     margin-left:-2.86rem;
+   }
+   .page3 .zuihouditu{
+      width:100%;
+      left:0.4rem;
+      bottom:0;
+   }
+ 
+   .blackBoard{
+       position: absolute;
+       width:9rem;
+       height:7rem;
+       top: 3rem;
+       left:2.5rem;
+       margin-left:-2.78rem;
+       margin-top:-2.02rem;
+       padding:0.8rem;
+       padding-left:0.6rem;
+       box-sizing:border-box;
+   }
